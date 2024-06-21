@@ -31,8 +31,8 @@
                             <div class="col-12 col-lg-8 text-center">
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Website</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">{{ $identitas->nama_desa }}</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Salam hangat dari Desa Bukit Agung! Selamat
-                                    datang di portal online kami yang menampilkan berita, acara, dan potensi desa kami.</p>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Salam hangat dari Dinas Koperasi! Selamat
+                                    datang di portal online kami yang menampilkan Data pasar,umkm,industri dan data koperasi.</p>
                             </div>
                         </div>
                     </div>
@@ -47,8 +47,8 @@
                             <div class="col-12 col-lg-8 text-center">
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Website</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">{{ $identitas->nama_desa }}</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Salam hangat dari Desa Bukit Agung! Selamat
-                                    datang di portal online kami yang menampilkan berita, acara, dan potensi desa kami.</p>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Salam hangat dari Dinas Koperasi! Selamat
+                                    datang di portal online kami yang menampilkan Data pasar,umkm,industri dan data koperasi.</p>
                             </div>
                         </div>
                     </div>
@@ -63,8 +63,8 @@
                             <div class="col-12 col-lg-8 text-center">
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Welcome To Website</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">{{ $identitas->nama_desa }}</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Salam hangat dari Desa Bukit Agung! Selamat
-                                    datang di portal online kami yang menampilkan berita, acara, dan potensi desa kami.</p>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Salam hangat dari Dinas Koperasi! Selamat
+                                    datang di portal online kami yang menampilkan Data pasar,umkm,industri dan data koperasi.</p>
                             </div>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="section-title text-center">
-                <h1 class="display-5 mb-5">Berita Desa</h1>
+                <h1 class="display-5 mb-5">Data Pasar</h1>
             </div>
 
             <div class="row g-4 portfolio-container">

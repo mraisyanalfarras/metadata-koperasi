@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>@yield('title') | Web Desa Bukit Agung</title>
+    <title>@yield('title') | Web Dinas Koperasi</title>
 
     @include('includes.frontsite.meta')
 

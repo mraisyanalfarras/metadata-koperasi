@@ -43,6 +43,7 @@ use App\Http\Controllers\Frontsite\PerangkatDesaController;
 use App\Http\Controllers\Frontsite\PengajuanSuratController;
 use App\Http\Controllers\Frontsite\PengumumanDesaController;
 use App\Http\Controllers\Frontsite\AduanMasyarakatController;
+use App\Http\Controllers\Frontsite\PasarDinasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -129,6 +130,22 @@ Route::put('/aduan-masyarakat/{aduan_masyarakat}/update', [AduanMasyarakatContro
 Route::delete('/aduan-masyarakat/{aduan_masyarakat}/destroy', [AduanMasyarakatController::class, 'destroy'])->name('aduan-masyarakat.destroy');
 Route::get('/aduan-masyarakat/{id}/show', [AduanMasyarakatController::class, 'show'])->name('aduan-masyarakat.show');
 
+//Umkm
+//Route::get('/umkm-dinas',[UmkmDinasController::class,'index'])->name('umkm-dinas.index');
+//Route::get('/umkm-dinas/{id}/detail', [UmkmDinasController::class, 'show'])->name('umkm-dinas.show');
+
+//Koperasi
+//Route::get('/koperasi-dinas',[KoperasiDinasController::class,'index'])->name('koperasi-dinas.index');
+//Route::get('/koperasi-dinas/{id}/detail', [KoperasiDinasController::class, 'show'])->name('koperasi-dinas.show');
+
+//Pasar
+Route::get('/pasar-dinas',[PasarDinasController::class,'index'])->name('pasar-dinas.index');
+Route::get('/pasar-dinas/{id}/detail', [PasarDinasController::class, 'show'])->name('pasar-dinas.show');
+
+
+//Industri
+//Route::get('/industri-dinas',[IndustriDinasController::class,'index'])->name('industri-dinas.index');
+//Route::get('/industri-dinas/{id}/detail', [IndustriDinasController::class, 'show'])->name('industri-dinas.show');
 
 
 

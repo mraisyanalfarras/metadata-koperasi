@@ -12,12 +12,12 @@
 
         <ul class="sidebar-nav">
             <li class="sidebar-header">
-                PROFIL DESA
+                PROFIL DINAS
             </li>
 
             <li class="sidebar-item">
                 <a class="sidebar-link" href="{{ route('identitas.index') }}">
-                    <i class="align-middle" data-feather="info"></i> <span class="align-middle">Identitas Desa</span>
+                    <i class="align-middle" data-feather="info"></i> <span class="align-middle">Identitas Dinas</span>
                 </a>
             </li>
 

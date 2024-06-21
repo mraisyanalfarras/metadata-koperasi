@@ -22,7 +22,7 @@
                 <div class="col-sm-6">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <h5 class="card-title">Perangkat Desa</h5>
+                            <h5 class="card-title">Perangkat Dinas</h5>
                             <h1 class="mt-1 mb-3">{{ $perangkat }}</h1>
                             <a href="{{ route('perangkat.create') }}" class="btn btn-primary btn-block">Tambah Data</a>
                         </div>

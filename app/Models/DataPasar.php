@@ -8,18 +8,17 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class DataPasar extends Model
 {
-    use SoftDeletes;
+    use HasFactory, SoftDeletes;
     
     protected $table = 'datapasars';
 
     protected $dates = [
         'created_at',
-        'update_at',
+        'updated_at',
         'deleted_at',
     ];
 
     protected $fillable = [
-       
         'namapasar',
         'id_kecamatan',
         'foto',
@@ -27,13 +26,8 @@ class DataPasar extends Model
         'jumlah_kios',
     ];
 
-    // public function user()
-    // {
-    //     return $this->belongsTo('App\Models\Pengajuan', 'id_jenis_surats', 'id');
-    // }
-
-    public function Kecamatan()
+    public function kecamatan()
     {
-        return $this->belongsTo('App\Models\Kecamatan', 'id_kecamatan', 'id');
+        return $this->belongsTo(Kecamatan::class, 'id_kecamatan', 'id');
     }
 }
